@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html{
+    background: url('https://wallpaperbat.com/img/164620-blue-galaxy-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.cabecalho {
+    background-color: rgb(2, 94, 122);
+    padding: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+img.img-alunos-tp{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+p.somos-blue-cabecalho{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    
+}
+
+button.btn-alunos{
+    background-color: #454140; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: .7rem;
+}
+
+div.container-cards-pg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    align-content: center;
+    justify-content: center;
+}
+
+div.cards-pg{
+    border-radius: 1rem;
+    border: .2rem solid black;
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+}
+
+img.img-card-pg{
+    border-radius: 1rem 1rem 0 0;
+    border-bottom: .2rem solid black;
+    width: 100%;
+    height: 600px;
+}
+
+p.titulo-card{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+p.descricao-card{
+    font-size: 2rem;
+    font-weight: 3000;
+    text-align: center;
+    margin: 1rem;
+}
+
+img.img-alunos-bk{
+    width: 100%;
+    height: 400px;
+}
+
+div.img-back-pg{
+    padding: 1rem;
+    background: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h3.texto-img-back-pg{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin: 1.5rem;
+}
+
+button.btn-link-alunos{
+    background-color: #454140; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: .7rem;
+}
+
+div.rodape-pg{
+    background-color: black;
+    padding: 1rem;
+}
+
+h2.texto-rodape-pg{
+    color: white;
+    text-align: center;
+}
